@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html,body{
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 100px;
+        }
+        .container{
+            display :flex;
+            flex-direction: column;
+            justify-content: stretch;
+            align-items: stretch;
+        }
+        .row{
+            display: flex;
+            flex:1;
+            justify-content: stretch;
+            align-items: stretch;
+        }
+        .header{
+            margin-top: 250px;
+        }
+        .element{
+            background-color: yellow; border:solid 1px black; opacity: 0.5;
+        }
+        .hovered{
+            background-color:aqua;
+        }
+    </style>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="header">
+        <button id="#changeNum" style="height: 50px;">Change number of blocks in grid</button>
+    </div>
+    <div class = 'container'>
+
+    </div>
+</body>
+</html>
